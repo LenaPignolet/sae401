@@ -12,11 +12,11 @@ const routes = [
     name: 'ProfilView',
     component: () => import('@/views/ProfilView.vue')
   },
-  // {
-  //   path: '/:pathMatch(.*)*',
-  //   name: 'NotFound',
-  //   component: () => import('@/views/NotFoundView.vue')
-  // },
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'NotFound',
+    component: () => import('@/views/NotFoundView.vue')
+  },
   {
     path: '/inscription',
     name: 'InscriptionView',
